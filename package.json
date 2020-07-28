@@ -1,0 +1,46 @@
+{
+  "name": "gh-user-search",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://ilan274.github.io/gh-user-search",
+  "dependencies": {
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "node-fetch": "^2.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --coverage --collectCoverageFrom=src/**/*.js? --collectCoverageFrom=!src/index.js",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.1",
+    "@types/jest": "^26.0.7",
+    "fetch-mock-jest": "^1.3.0",
+    "gh-pages": "^3.1.0",
+    "react-test-renderer": "^16.13.1"
+  }
+}
